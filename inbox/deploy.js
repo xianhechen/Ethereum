@@ -4,7 +4,7 @@ const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider ( // infura provider
   'father reunion logic athlete fiction clever helmet enemy fix curve rail funny',
-  'https://rinkeby.infura.io/oAkWNrCw1R8oI3v0W6kG'
+  'https://rinkeby.infura.io/oAkWNrCw1R8oI3v0W6kG' // easier than geth? lol
 );
 
 const web3 = new Web3(provider);

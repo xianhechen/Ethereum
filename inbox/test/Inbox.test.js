@@ -5,32 +5,6 @@ const provider = ganache.provider();
 const web3 = new Web3(provider);
 
 const { interface, bytecode } = require('../compile');
-// class Car {
-//   park() {
-//     return 'stopped';
-//   }
-//
-//   drive() {
-//     return 'vroom';
-//   }
-// }
-//
-// let car;
-// beforeEach(() => {
-//   car = new Car();
-// });
-//
-// // group of it
-// describe('Car', () => {
-//   // assertion
-//   it('can park', () => {
-//     assert.equal(car.park(), 'stopped');
-//   });
-//
-//   it('can drive', () => {
-//     assert.equal(car.drive(), 'vroom');
-//   });
-// });
 
 let accounts;
 let inbox;
